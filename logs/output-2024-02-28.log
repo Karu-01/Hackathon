@@ -1,0 +1,56 @@
+18:31:41.216 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+18:31:48.432 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+18:31:48.586 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+18:31:48.861 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+18:31:49.102 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+18:31:50.262 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+18:31:50.549 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+18:31:53.503 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+18:31:57.113 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+18:31:59.840 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+18:32:02.561 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+18:32:02.565 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+18:32:04.493 [main] INFO  testcases.BookshelvesCheck - Setting up the driver
+18:32:20.046 [main] INFO  testcases.BookshelvesCheck - Browser launched and navigated to the URL
+18:32:20.054 [main] INFO  testcases.BookshelvesCheck - Type Book Shelves on search Box
+18:32:23.100 [main] INFO  testcases.BookshelvesCheck - Select Book Shelves
+18:32:26.945 [main] INFO  testcases.BookshelvesCheck - Check the Pop-up is visible or not
+18:32:29.832 [main] INFO  testcases.BookshelvesCheck - Closing Pop-up
+18:32:30.487 [main] INFO  testcases.BookshelvesCheck - Check the PriceFilter is visible or not
+18:32:31.204 [main] INFO  testcases.BookshelvesCheck - Setting Price Filter
+18:32:33.160 [main] INFO  testcases.BookshelvesCheck - Check the sort is visible or not
+18:32:34.578 [main] INFO  testcases.BookshelvesCheck - Sorting by Price High to Low
+18:32:36.240 [main] INFO  testcases.BookshelvesCheck - Check the category is visible or not
+18:32:36.433 [main] INFO  testcases.BookshelvesCheck - Choosing Category
+18:32:37.141 [main] INFO  testcases.BookshelvesCheck - Check the Checkbox is visible or not
+18:32:37.803 [main] INFO  testcases.BookshelvesCheck - Click Out of Stock Checkbox
+18:32:38.083 [main] INFO  testcases.BookshelvesCheck - Getting Book Details
+18:32:39.517 [main] INFO  testcases.BookshelvesCheck - Writing Excel
+18:32:39.535 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:32:39.538 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:32:39.643 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+18:32:39.646 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+18:32:39.648 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+18:32:39.649 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+18:32:39.652 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+18:32:39.653 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+18:32:39.654 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+18:32:39.657 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+18:32:39.663 [main] INFO  testcases.BookshelvesCheck - Check the Living Details
+18:32:39.866 [main] INFO  testcases.BookshelvesCheck - Selecting the Living Details
+18:32:40.063 [main] INFO  testcases.BookshelvesCheck - Getting Living Details
+18:32:41.144 [main] INFO  testcases.BookshelvesCheck - Getting Living Details on Excel
+18:32:41.156 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:32:41.158 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:32:41.191 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
+18:32:43.524 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+18:32:49.483 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+18:32:49.634 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+18:32:49.821 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+18:32:50.020 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+18:32:51.390 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+18:32:51.569 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+18:32:54.578 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+18:32:55.377 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+18:32:56.502 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+18:32:57.258 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON

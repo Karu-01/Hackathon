@@ -1,0 +1,17 @@
+{  
+
+
+"Amount":"10000",
+"Recipient_Name":"John",
+"Recipient_Email":"john@mail.com"
+"Recipient_Mobile":"9876546789"
+"Customer_Name":"Smith"
+"Customer_WrongEmail":"smithmail.com"
+"Customer_Email":"smith@mail.com"
+"Customer_Mobile":"9679543109"
+"Customer_Address":"No. 8 Bazaar Lane"
+"Pin":"600004"
+"City":"Chennai"
+"Message":"Happy Birthday Smith"
+
+}

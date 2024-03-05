@@ -1,0 +1,55 @@
+09:37:41.528 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:37:43.391 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+09:37:43.553 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+09:37:43.564 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+09:37:43.565 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+09:37:43.573 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+09:37:43.573 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+09:37:43.575 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+09:37:43.579 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+09:37:43.580 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+09:37:43.993 [main] INFO  testcases.BookshelvesCheck - Check the Living Details
+09:37:44.358 [main] INFO  testcases.BookshelvesCheck - Selecting the Living Details
+09:37:44.696 [main] INFO  testcases.BookshelvesCheck - Getting Living Details
+09:37:45.813 [main] INFO  testcases.BookshelvesCheck - Getting Living Details on Excel
+09:37:45.824 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:37:45.826 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:37:45.919 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+09:37:45.922 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+09:37:45.924 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+09:37:45.925 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+09:37:45.927 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+09:37:45.928 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+09:37:45.929 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+09:37:45.932 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+09:37:45.932 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+09:37:46.243 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
+09:37:49.425 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+09:38:05.212 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+09:38:06.142 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+09:38:06.666 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+09:38:07.106 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+09:38:08.949 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+09:38:09.644 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+09:38:11.865 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+09:38:12.340 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+09:38:14.590 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+09:38:15.641 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+09:38:16.131 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+09:38:49.159 [main] INFO  testcases.BookshelvesCheck - Setting up the driver
+09:41:48.807 [main] INFO  testcases.BookshelvesCheck - Browser launched and navigated to the URL
+09:41:48.823 [main] INFO  testcases.BookshelvesCheck - Type Book Shelves on search Box
+09:41:49.966 [main] INFO  testcases.BookshelvesCheck - Select Book Shelves
+09:41:53.768 [main] INFO  testcases.BookshelvesCheck - Check the Pop-up is visible or not
+09:41:56.894 [main] INFO  testcases.BookshelvesCheck - Closing Pop-up
+09:41:58.510 [main] INFO  testcases.BookshelvesCheck - Check the PriceFilter is visible or not
+09:41:59.350 [main] INFO  testcases.BookshelvesCheck - Setting Price Filter
+09:42:01.523 [main] INFO  testcases.BookshelvesCheck - Check the sort is visible or not
+09:42:02.282 [main] INFO  testcases.BookshelvesCheck - Sorting by Price High to Low
+09:42:03.455 [main] INFO  testcases.BookshelvesCheck - Check the category is visible or not
+09:42:04.079 [main] INFO  testcases.BookshelvesCheck - Choosing Category
+09:42:05.573 [main] INFO  testcases.BookshelvesCheck - Check the Checkbox is visible or not
+09:42:06.168 [main] INFO  testcases.BookshelvesCheck - Click Out of Stock Checkbox
+09:42:07.414 [main] INFO  testcases.BookshelvesCheck - Getting Book Details
+09:42:09.531 [main] INFO  testcases.BookshelvesCheck - Writing Excel
+09:42:09.548 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels

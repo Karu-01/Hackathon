@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)(failed)">
+    <parameter name="br" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.EndtoEnd">
+        <methods>
+          <include name="getBookDetails"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.EndtoEnd -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

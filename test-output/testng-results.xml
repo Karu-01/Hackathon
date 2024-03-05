@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="62" passed="62" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T09:14:51 IST" name="Suite" finished-at="2024-03-05T09:17:53 IST" duration-ms="181907">
+    <groups>
+      <group name="regression">
+        <method signature="BookshelvesCheck.clickBookShelves()[pri:2, instance:testcases.BookshelvesCheck@6fa51cd4]" name="clickBookShelves" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.getLivingDetails()[pri:3, instance:testcases.DropDownCheck@1750fbeb]" name="getLivingDetails" class="testcases.DropDownCheck"/>
+        <method signature="BookshelvesCheck.popupClose()[pri:4, instance:testcases.BookshelvesCheck@6fa51cd4]" name="popupClose" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.collectingDetails()[pri:4, instance:testcases.DropDownCheck@1750fbeb]" name="collectingDetails" class="testcases.DropDownCheck"/>
+        <method signature="BookshelvesCheck.setPriceFilter()[pri:6, instance:testcases.BookshelvesCheck@6fa51cd4]" name="setPriceFilter" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.Customizing()[pri:6, instance:testcases.GiftCardCheck@5b247367]" name="Customizing" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.sortByPriceHighToLow()[pri:8, instance:testcases.BookshelvesCheck@6fa51cd4]" name="sortByPriceHighToLow" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.invalidDetailsFilling()[pri:8, instance:testcases.GiftCardCheck@5b247367]" name="invalidDetailsFilling" class="testcases.GiftCardCheck"/>
+        <method signature="GiftCardCheck.captureAndDisplayErrorMessage()[pri:9, instance:testcases.GiftCardCheck@5b247367]" name="captureAndDisplayErrorMessage" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.chooseCategory()[pri:10, instance:testcases.BookshelvesCheck@6fa51cd4]" name="chooseCategory" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.validateDetails()[pri:10, instance:testcases.GiftCardCheck@5b247367]" name="validateDetails" class="testcases.GiftCardCheck"/>
+        <method signature="GiftCardCheck.validateAllDetails()[pri:11, instance:testcases.GiftCardCheck@5b247367]" name="validateAllDetails" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.outOfStockCheckbox()[pri:12, instance:testcases.BookshelvesCheck@6fa51cd4]" name="outOfStockCheckbox" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.writeDetailsToJson()[pri:12, instance:testcases.GiftCardCheck@5b247367]" name="writeDetailsToJson" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.getBookDetails()[pri:13, instance:testcases.BookshelvesCheck@6fa51cd4]" name="getBookDetails" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.compareDetails()[pri:13, instance:testcases.GiftCardCheck@5b247367]" name="compareDetails" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.writeExcel()[pri:14, instance:testcases.BookshelvesCheck@6fa51cd4]" name="writeExcel" class="testcases.BookshelvesCheck"/>
+        <method signature="BookshelvesCheck.clickBookShelves()[pri:2, instance:testcases.BookshelvesCheck@4f32a3ad]" name="clickBookShelves" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.getLivingDetails()[pri:3, instance:testcases.DropDownCheck@6b695b06]" name="getLivingDetails" class="testcases.DropDownCheck"/>
+        <method signature="BookshelvesCheck.popupClose()[pri:4, instance:testcases.BookshelvesCheck@4f32a3ad]" name="popupClose" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.collectingDetails()[pri:4, instance:testcases.DropDownCheck@6b695b06]" name="collectingDetails" class="testcases.DropDownCheck"/>
+        <method signature="BookshelvesCheck.setPriceFilter()[pri:6, instance:testcases.BookshelvesCheck@4f32a3ad]" name="setPriceFilter" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.Customizing()[pri:6, instance:testcases.GiftCardCheck@4d1bf319]" name="Customizing" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.sortByPriceHighToLow()[pri:8, instance:testcases.BookshelvesCheck@4f32a3ad]" name="sortByPriceHighToLow" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.invalidDetailsFilling()[pri:8, instance:testcases.GiftCardCheck@4d1bf319]" name="invalidDetailsFilling" class="testcases.GiftCardCheck"/>
+        <method signature="GiftCardCheck.captureAndDisplayErrorMessage()[pri:9, instance:testcases.GiftCardCheck@4d1bf319]" name="captureAndDisplayErrorMessage" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.chooseCategory()[pri:10, instance:testcases.BookshelvesCheck@4f32a3ad]" name="chooseCategory" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.validateDetails()[pri:10, instance:testcases.GiftCardCheck@4d1bf319]" name="validateDetails" class="testcases.GiftCardCheck"/>
+        <method signature="GiftCardCheck.validateAllDetails()[pri:11, instance:testcases.GiftCardCheck@4d1bf319]" name="validateAllDetails" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.outOfStockCheckbox()[pri:12, instance:testcases.BookshelvesCheck@4f32a3ad]" name="outOfStockCheckbox" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.writeDetailsToJson()[pri:12, instance:testcases.GiftCardCheck@4d1bf319]" name="writeDetailsToJson" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.getBookDetails()[pri:13, instance:testcases.BookshelvesCheck@4f32a3ad]" name="getBookDetails" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.compareDetails()[pri:13, instance:testcases.GiftCardCheck@4d1bf319]" name="compareDetails" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.writeExcel()[pri:14, instance:testcases.BookshelvesCheck@4f32a3ad]" name="writeExcel" class="testcases.BookshelvesCheck"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BookshelvesCheck.verifyBookShelves()[pri:1, instance:testcases.BookshelvesCheck@6fa51cd4]" name="verifyBookShelves" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.CheckLiving()[pri:1, instance:testcases.DropDownCheck@1750fbeb]" name="CheckLiving" class="testcases.DropDownCheck"/>
+        <method signature="GiftCardCheck.CheckGiftCards()[pri:1, instance:testcases.GiftCardCheck@5b247367]" name="CheckGiftCards" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.clickBookShelves()[pri:2, instance:testcases.BookshelvesCheck@6fa51cd4]" name="clickBookShelves" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.SelectLiving()[pri:2, instance:testcases.DropDownCheck@1750fbeb]" name="SelectLiving" class="testcases.DropDownCheck"/>
+        <method signature="GiftCardCheck.GetGiftCards()[pri:2, instance:testcases.GiftCardCheck@5b247367]" name="GetGiftCards" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checkpopup()[pri:3, instance:testcases.BookshelvesCheck@6fa51cd4]" name="checkpopup" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.CheckBirthday()[pri:3, instance:testcases.GiftCardCheck@5b247367]" name="CheckBirthday" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.popupClose()[pri:4, instance:testcases.BookshelvesCheck@6fa51cd4]" name="popupClose" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.SelectBirthday()[pri:4, instance:testcases.GiftCardCheck@5b247367]" name="SelectBirthday" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checkpriceFilter()[pri:5, instance:testcases.BookshelvesCheck@6fa51cd4]" name="checkpriceFilter" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.Checkcustomizationvisible()[pri:5, instance:testcases.GiftCardCheck@5b247367]" name="Checkcustomizationvisible" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checksort()[pri:7, instance:testcases.BookshelvesCheck@6fa51cd4]" name="checksort" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.filldetailsvisible()[pri:7, instance:testcases.GiftCardCheck@5b247367]" name="filldetailsvisible" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checkcategory()[pri:9, instance:testcases.BookshelvesCheck@6fa51cd4]" name="checkcategory" class="testcases.BookshelvesCheck"/>
+        <method signature="BookshelvesCheck.checkCheckbox()[pri:11, instance:testcases.BookshelvesCheck@6fa51cd4]" name="checkCheckbox" class="testcases.BookshelvesCheck"/>
+        <method signature="BookshelvesCheck.verifyBookShelves()[pri:1, instance:testcases.BookshelvesCheck@4f32a3ad]" name="verifyBookShelves" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.CheckLiving()[pri:1, instance:testcases.DropDownCheck@6b695b06]" name="CheckLiving" class="testcases.DropDownCheck"/>
+        <method signature="GiftCardCheck.CheckGiftCards()[pri:1, instance:testcases.GiftCardCheck@4d1bf319]" name="CheckGiftCards" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.clickBookShelves()[pri:2, instance:testcases.BookshelvesCheck@4f32a3ad]" name="clickBookShelves" class="testcases.BookshelvesCheck"/>
+        <method signature="DropDownCheck.SelectLiving()[pri:2, instance:testcases.DropDownCheck@6b695b06]" name="SelectLiving" class="testcases.DropDownCheck"/>
+        <method signature="GiftCardCheck.GetGiftCards()[pri:2, instance:testcases.GiftCardCheck@4d1bf319]" name="GetGiftCards" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checkpopup()[pri:3, instance:testcases.BookshelvesCheck@4f32a3ad]" name="checkpopup" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.CheckBirthday()[pri:3, instance:testcases.GiftCardCheck@4d1bf319]" name="CheckBirthday" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.popupClose()[pri:4, instance:testcases.BookshelvesCheck@4f32a3ad]" name="popupClose" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.SelectBirthday()[pri:4, instance:testcases.GiftCardCheck@4d1bf319]" name="SelectBirthday" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checkpriceFilter()[pri:5, instance:testcases.BookshelvesCheck@4f32a3ad]" name="checkpriceFilter" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.Checkcustomizationvisible()[pri:5, instance:testcases.GiftCardCheck@4d1bf319]" name="Checkcustomizationvisible" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checksort()[pri:7, instance:testcases.BookshelvesCheck@4f32a3ad]" name="checksort" class="testcases.BookshelvesCheck"/>
+        <method signature="GiftCardCheck.filldetailsvisible()[pri:7, instance:testcases.GiftCardCheck@4d1bf319]" name="filldetailsvisible" class="testcases.GiftCardCheck"/>
+        <method signature="BookshelvesCheck.checkcategory()[pri:9, instance:testcases.BookshelvesCheck@4f32a3ad]" name="checkcategory" class="testcases.BookshelvesCheck"/>
+        <method signature="BookshelvesCheck.checkCheckbox()[pri:11, instance:testcases.BookshelvesCheck@4f32a3ad]" name="checkCheckbox" class="testcases.BookshelvesCheck"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-05T09:14:51 IST" name="ChromeTest" finished-at="2024-03-05T09:16:10 IST" duration-ms="79004">
+      <class name="testcases.GiftCardCheck">
+        <test-method signature="CheckGiftCards()[pri:1, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:15:45 IST" name="CheckGiftCards" finished-at="2024-03-05T09:15:48 IST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGiftCards -->
+        <test-method signature="GetGiftCards()[pri:2, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:15:49 IST" name="GetGiftCards" finished-at="2024-03-05T09:15:57 IST" duration-ms="8332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetGiftCards -->
+        <test-method signature="CheckBirthday()[pri:3, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:15:57 IST" name="CheckBirthday" finished-at="2024-03-05T09:15:58 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBirthday -->
+        <test-method signature="SelectBirthday()[pri:4, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:15:58 IST" name="SelectBirthday" finished-at="2024-03-05T09:15:59 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBirthday -->
+        <test-method signature="Checkcustomizationvisible()[pri:5, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:15:59 IST" name="Checkcustomizationvisible" finished-at="2024-03-05T09:15:59 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcustomizationvisible -->
+        <test-method signature="Customizing()[pri:6, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:15:59 IST" name="Customizing" finished-at="2024-03-05T09:16:01 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customizing -->
+        <test-method signature="filldetailsvisible()[pri:7, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:01 IST" name="filldetailsvisible" finished-at="2024-03-05T09:16:01 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetailsvisible -->
+        <test-method signature="invalidDetailsFilling()[pri:8, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:01 IST" name="invalidDetailsFilling" finished-at="2024-03-05T09:16:04 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDetailsFilling -->
+        <test-method signature="captureAndDisplayErrorMessage()[pri:9, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:05 IST" name="captureAndDisplayErrorMessage" finished-at="2024-03-05T09:16:05 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndDisplayErrorMessage -->
+        <test-method signature="validateDetails()[pri:10, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:05 IST" name="validateDetails" finished-at="2024-03-05T09:16:06 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDetails -->
+        <test-method signature="validateAllDetails()[pri:11, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:07 IST" name="validateAllDetails" finished-at="2024-03-05T09:16:07 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllDetails -->
+        <test-method signature="writeDetailsToJson()[pri:12, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:08 IST" name="writeDetailsToJson" finished-at="2024-03-05T09:16:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDetailsToJson -->
+        <test-method signature="compareDetails()[pri:13, instance:testcases.GiftCardCheck@5b247367]" started-at="2024-03-05T09:16:08 IST" name="compareDetails" finished-at="2024-03-05T09:16:08 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDetails -->
+      </class> <!-- testcases.GiftCardCheck -->
+      <class name="testcases.DropDownCheck">
+        <test-method signature="CheckLiving()[pri:1, instance:testcases.DropDownCheck@1750fbeb]" started-at="2024-03-05T09:15:42 IST" name="CheckLiving" finished-at="2024-03-05T09:15:42 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLiving -->
+        <test-method signature="SelectLiving()[pri:2, instance:testcases.DropDownCheck@1750fbeb]" started-at="2024-03-05T09:15:42 IST" name="SelectLiving" finished-at="2024-03-05T09:15:42 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLiving -->
+        <test-method signature="getLivingDetails()[pri:3, instance:testcases.DropDownCheck@1750fbeb]" started-at="2024-03-05T09:15:43 IST" name="getLivingDetails" finished-at="2024-03-05T09:15:44 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLivingDetails -->
+        <test-method signature="collectingDetails()[pri:4, instance:testcases.DropDownCheck@1750fbeb]" started-at="2024-03-05T09:15:45 IST" name="collectingDetails" finished-at="2024-03-05T09:15:45 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectingDetails -->
+      </class> <!-- testcases.DropDownCheck -->
+      <class name="testcases.BookshelvesCheck">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:14:52 IST" name="setup" finished-at="2024-03-05T09:15:16 IST" duration-ms="23378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBookShelves()[pri:1, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:16 IST" name="verifyBookShelves" finished-at="2024-03-05T09:15:18 IST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookShelves -->
+        <test-method signature="clickBookShelves()[pri:2, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:19 IST" name="clickBookShelves" finished-at="2024-03-05T09:15:23 IST" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBookShelves -->
+        <test-method signature="checkpopup()[pri:3, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:24 IST" name="checkpopup" finished-at="2024-03-05T09:15:26 IST" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkpopup -->
+        <test-method signature="popupClose()[pri:4, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:27 IST" name="popupClose" finished-at="2024-03-05T09:15:27 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupClose -->
+        <test-method signature="checkpriceFilter()[pri:5, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:28 IST" name="checkpriceFilter" finished-at="2024-03-05T09:15:28 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkpriceFilter -->
+        <test-method signature="setPriceFilter()[pri:6, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:29 IST" name="setPriceFilter" finished-at="2024-03-05T09:15:31 IST" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPriceFilter -->
+        <test-method signature="checksort()[pri:7, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:31 IST" name="checksort" finished-at="2024-03-05T09:15:32 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksort -->
+        <test-method signature="sortByPriceHighToLow()[pri:8, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:32 IST" name="sortByPriceHighToLow" finished-at="2024-03-05T09:15:33 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceHighToLow -->
+        <test-method signature="checkcategory()[pri:9, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:33 IST" name="checkcategory" finished-at="2024-03-05T09:15:34 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcategory -->
+        <test-method signature="chooseCategory()[pri:10, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:34 IST" name="chooseCategory" finished-at="2024-03-05T09:15:35 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseCategory -->
+        <test-method signature="checkCheckbox()[pri:11, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:36 IST" name="checkCheckbox" finished-at="2024-03-05T09:15:36 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheckbox -->
+        <test-method signature="outOfStockCheckbox()[pri:12, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:37 IST" name="outOfStockCheckbox" finished-at="2024-03-05T09:15:37 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outOfStockCheckbox -->
+        <test-method signature="getBookDetails()[pri:13, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:37 IST" name="getBookDetails" finished-at="2024-03-05T09:15:38 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookDetails -->
+        <test-method signature="writeExcel()[pri:14, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:15:38 IST" name="writeExcel" finished-at="2024-03-05T09:15:41 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.BookshelvesCheck@6fa51cd4]" started-at="2024-03-05T09:16:09 IST" name="teardown" finished-at="2024-03-05T09:16:10 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.BookshelvesCheck -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-03-05T09:16:19 IST" name="EdgeTest" finished-at="2024-03-05T09:17:53 IST" duration-ms="93875">
+      <class name="testcases.GiftCardCheck">
+        <test-method signature="CheckGiftCards()[pri:1, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:24 IST" name="CheckGiftCards" finished-at="2024-03-05T09:17:27 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGiftCards -->
+        <test-method signature="GetGiftCards()[pri:2, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:27 IST" name="GetGiftCards" finished-at="2024-03-05T09:17:36 IST" duration-ms="9096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetGiftCards -->
+        <test-method signature="CheckBirthday()[pri:3, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:37 IST" name="CheckBirthday" finished-at="2024-03-05T09:17:37 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBirthday -->
+        <test-method signature="SelectBirthday()[pri:4, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:38 IST" name="SelectBirthday" finished-at="2024-03-05T09:17:38 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBirthday -->
+        <test-method signature="Checkcustomizationvisible()[pri:5, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:39 IST" name="Checkcustomizationvisible" finished-at="2024-03-05T09:17:39 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcustomizationvisible -->
+        <test-method signature="Customizing()[pri:6, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:39 IST" name="Customizing" finished-at="2024-03-05T09:17:41 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customizing -->
+        <test-method signature="filldetailsvisible()[pri:7, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:41 IST" name="filldetailsvisible" finished-at="2024-03-05T09:17:41 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetailsvisible -->
+        <test-method signature="invalidDetailsFilling()[pri:8, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:42 IST" name="invalidDetailsFilling" finished-at="2024-03-05T09:17:45 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDetailsFilling -->
+        <test-method signature="captureAndDisplayErrorMessage()[pri:9, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:46 IST" name="captureAndDisplayErrorMessage" finished-at="2024-03-05T09:17:46 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndDisplayErrorMessage -->
+        <test-method signature="validateDetails()[pri:10, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:47 IST" name="validateDetails" finished-at="2024-03-05T09:17:48 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDetails -->
+        <test-method signature="validateAllDetails()[pri:11, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:48 IST" name="validateAllDetails" finished-at="2024-03-05T09:17:49 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllDetails -->
+        <test-method signature="writeDetailsToJson()[pri:12, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:49 IST" name="writeDetailsToJson" finished-at="2024-03-05T09:17:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDetailsToJson -->
+        <test-method signature="compareDetails()[pri:13, instance:testcases.GiftCardCheck@4d1bf319]" started-at="2024-03-05T09:17:50 IST" name="compareDetails" finished-at="2024-03-05T09:17:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDetails -->
+      </class> <!-- testcases.GiftCardCheck -->
+      <class name="testcases.DropDownCheck">
+        <test-method signature="CheckLiving()[pri:1, instance:testcases.DropDownCheck@6b695b06]" started-at="2024-03-05T09:17:20 IST" name="CheckLiving" finished-at="2024-03-05T09:17:21 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLiving -->
+        <test-method signature="SelectLiving()[pri:2, instance:testcases.DropDownCheck@6b695b06]" started-at="2024-03-05T09:17:21 IST" name="SelectLiving" finished-at="2024-03-05T09:17:21 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLiving -->
+        <test-method signature="getLivingDetails()[pri:3, instance:testcases.DropDownCheck@6b695b06]" started-at="2024-03-05T09:17:22 IST" name="getLivingDetails" finished-at="2024-03-05T09:17:23 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLivingDetails -->
+        <test-method signature="collectingDetails()[pri:4, instance:testcases.DropDownCheck@6b695b06]" started-at="2024-03-05T09:17:24 IST" name="collectingDetails" finished-at="2024-03-05T09:17:24 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectingDetails -->
+      </class> <!-- testcases.DropDownCheck -->
+      <class name="testcases.BookshelvesCheck">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:16:19 IST" name="setup" finished-at="2024-03-05T09:16:38 IST" duration-ms="18513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBookShelves()[pri:1, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:16:38 IST" name="verifyBookShelves" finished-at="2024-03-05T09:16:40 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookShelves -->
+        <test-method signature="clickBookShelves()[pri:2, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:16:41 IST" name="clickBookShelves" finished-at="2024-03-05T09:17:03 IST" duration-ms="21390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBookShelves -->
+        <test-method signature="checkpopup()[pri:3, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:04 IST" name="checkpopup" finished-at="2024-03-05T09:17:06 IST" duration-ms="2195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkpopup -->
+        <test-method signature="popupClose()[pri:4, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:07 IST" name="popupClose" finished-at="2024-03-05T09:17:07 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupClose -->
+        <test-method signature="checkpriceFilter()[pri:5, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:09 IST" name="checkpriceFilter" finished-at="2024-03-05T09:17:09 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkpriceFilter -->
+        <test-method signature="setPriceFilter()[pri:6, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:10 IST" name="setPriceFilter" finished-at="2024-03-05T09:17:11 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPriceFilter -->
+        <test-method signature="checksort()[pri:7, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:11 IST" name="checksort" finished-at="2024-03-05T09:17:12 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksort -->
+        <test-method signature="sortByPriceHighToLow()[pri:8, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:12 IST" name="sortByPriceHighToLow" finished-at="2024-03-05T09:17:13 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceHighToLow -->
+        <test-method signature="checkcategory()[pri:9, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:13 IST" name="checkcategory" finished-at="2024-03-05T09:17:14 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcategory -->
+        <test-method signature="chooseCategory()[pri:10, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:14 IST" name="chooseCategory" finished-at="2024-03-05T09:17:16 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseCategory -->
+        <test-method signature="checkCheckbox()[pri:11, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:16 IST" name="checkCheckbox" finished-at="2024-03-05T09:17:16 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheckbox -->
+        <test-method signature="outOfStockCheckbox()[pri:12, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:17 IST" name="outOfStockCheckbox" finished-at="2024-03-05T09:17:17 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outOfStockCheckbox -->
+        <test-method signature="getBookDetails()[pri:13, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:18 IST" name="getBookDetails" finished-at="2024-03-05T09:17:19 IST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookDetails -->
+        <test-method signature="writeExcel()[pri:14, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:20 IST" name="writeExcel" finished-at="2024-03-05T09:17:20 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.BookshelvesCheck@4f32a3ad]" started-at="2024-03-05T09:17:51 IST" name="teardown" finished-at="2024-03-05T09:17:53 IST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.BookshelvesCheck -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

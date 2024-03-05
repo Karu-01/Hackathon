@@ -1,0 +1,59 @@
+15:37:29.889 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+15:37:29.904 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+15:37:29.905 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+15:37:29.906 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+15:37:29.911 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+15:37:29.912 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+15:37:30.316 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
+15:37:32.345 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+15:38:11.195 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+15:38:12.204 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+15:38:12.824 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+15:38:13.391 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+15:38:15.372 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+15:38:16.009 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+15:38:19.822 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+15:38:20.689 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+15:38:21.890 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+15:38:23.199 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+15:38:23.920 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+15:48:55.557 [main] INFO  testcases.GiftCardCheck - Setting up the driver
+15:49:07.326 [main] INFO  testcases.GiftCardCheck - Browser launched and navigated to the URL
+15:49:07.477 [main] INFO  testcases.GiftCardCheck - Check Gift Cards
+15:49:10.405 [main] INFO  testcases.GiftCardCheck - Getting Gift Cards
+15:49:54.721 [main] INFO  testcases.GiftCardCheck - Check Birthday or Annivesary visible
+15:49:55.661 [main] INFO  testcases.GiftCardCheck - Select Birthday or Annivesary 
+15:49:56.345 [main] INFO  testcases.GiftCardCheck - Check customization visible
+15:49:56.972 [main] INFO  testcases.GiftCardCheck - Customizing Gift Card
+15:49:58.477 [main] INFO  testcases.GiftCardCheck - Check filldetails visible
+15:49:58.958 [main] INFO  testcases.GiftCardCheck - Filling Invalid Details
+15:50:02.161 [main] INFO  testcases.GiftCardCheck - Capturing and Displaying Error Message
+15:50:02.798 [main] INFO  testcases.GiftCardCheck - Validating Gift Card Details
+15:50:04.091 [main] INFO  testcases.GiftCardCheck - Validating All Details in Confirm Details section
+15:50:05.631 [main] INFO  testcases.GiftCardCheck - Writing Gift Card Details to JSON
+15:50:06.490 [main] INFO  testcases.GiftCardCheck - Writing Gift Card Details to JSON
+15:55:06.931 [main] INFO  testcases.GiftCardCheck - Setting up the driver
+15:55:18.390 [main] INFO  testcases.GiftCardCheck - Browser launched and navigated to the URL
+15:55:18.551 [main] INFO  testcases.GiftCardCheck - Check Gift Cards
+15:55:21.230 [main] INFO  testcases.GiftCardCheck - Getting Gift Cards
+15:56:02.824 [main] INFO  testcases.GiftCardCheck - Check Birthday or Annivesary visible
+15:56:04.024 [main] INFO  testcases.GiftCardCheck - Select Birthday or Annivesary 
+15:56:04.830 [main] INFO  testcases.GiftCardCheck - Check customization visible
+15:56:05.420 [main] INFO  testcases.GiftCardCheck - Customizing Gift Card
+15:56:06.985 [main] INFO  testcases.GiftCardCheck - Check filldetails visible
+15:56:07.508 [main] INFO  testcases.GiftCardCheck - Filling Invalid Details
+15:56:10.956 [main] INFO  testcases.GiftCardCheck - Capturing and Displaying Error Message
+15:56:11.704 [main] INFO  testcases.GiftCardCheck - Validating Gift Card Details
+15:56:13.338 [main] INFO  testcases.GiftCardCheck - Validating All Details in Confirm Details section
+15:56:14.610 [main] INFO  testcases.GiftCardCheck - Writing Gift Card Details to JSON
+15:56:15.401 [main] INFO  testcases.GiftCardCheck - Writing Gift Card Details to JSON
+15:57:17.220 [main] INFO  testcases.GiftCardCheck - Setting up the driver
+15:57:31.225 [main] INFO  testcases.GiftCardCheck - Browser launched and navigated to the URL
+15:57:31.388 [main] INFO  testcases.GiftCardCheck - Check Gift Cards
+15:57:34.319 [main] INFO  testcases.GiftCardCheck - Getting Gift Cards
+15:58:17.073 [main] INFO  testcases.GiftCardCheck - Check Birthday or Annivesary visible
+15:58:18.008 [main] INFO  testcases.GiftCardCheck - Select Birthday or Annivesary 
+15:58:18.587 [main] INFO  testcases.GiftCardCheck - Check customization visible
+15:58:19.149 [main] INFO  testcases.GiftCardCheck - Customizing Gift Card
+15:58:20.915 [main] INFO  testcases.GiftCardCheck - Check filldetails visible
+15:58:21.390 [main] INFO  testcases.GiftCardCheck - Filling Invalid Details
