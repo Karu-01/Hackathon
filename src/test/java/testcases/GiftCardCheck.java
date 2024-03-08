@@ -1,11 +1,14 @@
 package testcases;
 
+import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import pageobject.*;
 import testbase.BaseClass;
-import utilities.JsonRead;
+import utilities.JsonData;
 
 public class GiftCardCheck extends BaseClass {
 
@@ -90,10 +93,10 @@ public class GiftCardCheck extends BaseClass {
 	}
 
 	@Test(priority = 13, groups = { "regression" })
-	public void compareDetails() {
+	public void compareDetails() throws IOException{
 		logger.info("Writing Gift Card Details to JSON");
 		System.out.println("----Check all the details are equals or not----");
-		JsonRead.CompareData();
+		GD.compareData();
 	}
 
 }

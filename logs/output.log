@@ -1,20 +1,21 @@
-09:42:09.551 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-09:42:10.173 [main] INFO  testcases.BookshelvesCheck - Check the Living Details
-09:42:10.740 [main] INFO  testcases.BookshelvesCheck - Selecting the Living Details
-09:42:11.140 [main] INFO  testcases.BookshelvesCheck - Getting Living Details
-09:42:12.432 [main] INFO  testcases.BookshelvesCheck - Getting Living Details on Excel
-09:42:12.442 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-09:42:12.443 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-09:42:12.872 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
-09:42:17.158 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
-09:42:30.379 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
-09:42:31.853 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
-09:42:32.597 [main] INFO  testcases.BookshelvesCheck - Check customization visible
-09:42:33.514 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
-09:42:36.097 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
-09:42:37.375 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
-09:42:41.913 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
-09:42:43.006 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
-09:42:44.474 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
-09:42:45.939 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
-09:42:46.577 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+16:52:31.030 [main] INFO  testcases.BookshelvesCheck - Check the Checkbox is visible or not
+16:52:31.676 [main] INFO  testcases.BookshelvesCheck - Click Out of Stock Checkbox
+16:52:32.405 [main] INFO  testcases.BookshelvesCheck - Getting Book Details
+16:52:33.169 [main] INFO  testcases.BookshelvesCheck - Writing Excel
+16:52:33.869 [main] INFO  testcases.BookshelvesCheck - Check the Living Details
+16:52:34.370 [main] INFO  testcases.BookshelvesCheck - Selecting the Living Details
+16:52:34.903 [main] INFO  testcases.BookshelvesCheck - Getting Living Details
+16:52:36.227 [main] INFO  testcases.BookshelvesCheck - Getting Living Details on Excel
+16:52:36.742 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
+16:52:39.436 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+16:53:11.723 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+16:53:12.742 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+16:53:13.463 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+16:53:14.178 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+16:53:15.653 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+16:53:16.285 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+16:53:19.473 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+16:53:20.001 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+16:53:20.708 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+16:53:21.300 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+16:53:21.541 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON

@@ -16,28 +16,10 @@
       <class name="testcases.BookshelvesCheck">
         <methods>
           <include name="teardown"/>
-          <include name="checkpriceFilter"/>
+          <include name="getBookDetails"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testcases.BookshelvesCheck -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="EdgeTest(failed)">
-    <parameter name="br" value="Edge"/>
-    <groups>
-      <run>
-        <include name="smoke"/>
-        <include name="regression"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testcases.BookshelvesCheck">
-        <methods>
-          <include name="teardown"/>
-          <include name="checkpriceFilter"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testcases.BookshelvesCheck -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

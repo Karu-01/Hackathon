@@ -9,7 +9,7 @@ import pageobject.DropdownDetails;
 import pageobject.GiftCardDetails;
 import pageobject.HomePage;
 import testbase.BaseClass;
-import utilities.JsonRead;
+import utilities.JsonData;
 
 public class EndtoEnd extends BaseClass{
 	HomePage hp;
@@ -210,7 +210,7 @@ public class EndtoEnd extends BaseClass{
     public void compareDetails() {
     	logger.info("Writing Gift Card Details to JSON");
     	System.out.println("----Check all the details are equals or not----");
-    	JsonRead.CompareData();
+    	//JsonData.CompareData();
     }
 
 }

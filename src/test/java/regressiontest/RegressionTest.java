@@ -8,7 +8,7 @@ import pageobject.DropdownDetails;
 import pageobject.GiftCardDetails;
 import pageobject.HomePage;
 import testbase.BaseClass;
-import utilities.JsonRead;
+import utilities.JsonData;
 
 public class RegressionTest extends BaseClass{
 	@Test(priority = 1)
@@ -41,7 +41,7 @@ public class RegressionTest extends BaseClass{
 		GD.fillValiddetails();
 		GD.getdetails();
 		GD.writeDetailsToJson();
-		JsonRead.CompareData();
+		//JsonData.CompareData();
 		
 	}
 

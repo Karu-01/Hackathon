@@ -1,0 +1,59 @@
+16:46:17.607 [main] INFO  testcases.BookshelvesCheck - Getting Living Details on Excel
+16:46:18.180 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
+16:47:15.158 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+16:47:31.260 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+16:47:32.040 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+16:47:32.544 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+16:47:32.896 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+16:47:34.286 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+16:47:34.695 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+16:47:37.776 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+16:47:38.457 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+16:47:39.350 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+16:47:40.335 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+16:47:40.797 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+16:49:13.333 [main] INFO  testcases.BookshelvesCheck - Setting up the driver
+16:49:40.496 [main] INFO  testcases.BookshelvesCheck - Browser launched and navigated to the URL
+16:49:40.718 [main] INFO  testcases.BookshelvesCheck - Type Book Shelves on search Box
+16:49:42.809 [main] INFO  testcases.BookshelvesCheck - Select Book Shelves
+16:49:48.284 [main] INFO  testcases.BookshelvesCheck - Check the Pop-up is visible or not
+16:49:50.606 [main] INFO  testcases.BookshelvesCheck - Closing Pop-up
+16:49:51.530 [main] INFO  testcases.BookshelvesCheck - Check the PriceFilter is visible or not
+16:49:51.921 [main] INFO  testcases.BookshelvesCheck - Setting Price Filter
+16:49:53.102 [main] INFO  testcases.BookshelvesCheck - Check the sort is visible or not
+16:49:53.454 [main] INFO  testcases.BookshelvesCheck - Sorting by Price High to Low
+16:49:54.652 [main] INFO  testcases.BookshelvesCheck - Check the category is visible or not
+16:49:55.228 [main] INFO  testcases.BookshelvesCheck - Choosing Category
+16:49:56.208 [main] INFO  testcases.BookshelvesCheck - Check the Checkbox is visible or not
+16:49:56.703 [main] INFO  testcases.BookshelvesCheck - Click Out of Stock Checkbox
+16:49:57.258 [main] INFO  testcases.BookshelvesCheck - Getting Book Details
+16:49:58.215 [main] INFO  testcases.BookshelvesCheck - Writing Excel
+16:50:00.992 [main] INFO  testcases.BookshelvesCheck - Check the Living Details
+16:50:01.377 [main] INFO  testcases.BookshelvesCheck - Selecting the Living Details
+16:50:01.728 [main] INFO  testcases.BookshelvesCheck - Getting Living Details
+16:50:02.860 [main] INFO  testcases.BookshelvesCheck - Getting Living Details on Excel
+16:50:03.250 [main] INFO  testcases.BookshelvesCheck - Check Gift Cards
+16:50:08.212 [main] INFO  testcases.BookshelvesCheck - Getting Gift Cards
+16:50:42.565 [main] INFO  testcases.BookshelvesCheck - Check Birthday or Annivesary visible
+16:50:43.398 [main] INFO  testcases.BookshelvesCheck - Select Birthday or Annivesary 
+16:50:43.969 [main] INFO  testcases.BookshelvesCheck - Check customization visible
+16:50:44.358 [main] INFO  testcases.BookshelvesCheck - Customizing Gift Card
+16:50:45.877 [main] INFO  testcases.BookshelvesCheck - Check filldetails visible
+16:50:46.301 [main] INFO  testcases.BookshelvesCheck - Filling Invalid Details
+16:50:49.457 [main] INFO  testcases.BookshelvesCheck - Capturing and Displaying Error Message
+16:50:50.399 [main] INFO  testcases.BookshelvesCheck - Validating Gift Card Details
+16:50:52.796 [main] INFO  testcases.BookshelvesCheck - Validating All Details in Confirm Details section
+16:50:54.133 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+16:50:54.769 [main] INFO  testcases.BookshelvesCheck - Writing Gift Card Details to JSON
+16:51:01.027 [main] INFO  testcases.BookshelvesCheck - Setting up the driver
+16:52:13.203 [main] INFO  testcases.BookshelvesCheck - Browser launched and navigated to the URL
+16:52:13.220 [main] INFO  testcases.BookshelvesCheck - Type Book Shelves on search Box
+16:52:14.537 [main] INFO  testcases.BookshelvesCheck - Select Book Shelves
+16:52:20.476 [main] INFO  testcases.BookshelvesCheck - Check the Pop-up is visible or not
+16:52:23.492 [main] INFO  testcases.BookshelvesCheck - Closing Pop-up
+16:52:24.496 [main] INFO  testcases.BookshelvesCheck - Check the PriceFilter is visible or not
+16:52:24.914 [main] INFO  testcases.BookshelvesCheck - Setting Price Filter
+16:52:26.112 [main] INFO  testcases.BookshelvesCheck - Check the sort is visible or not
+16:52:26.471 [main] INFO  testcases.BookshelvesCheck - Sorting by Price High to Low
+16:52:28.248 [main] INFO  testcases.BookshelvesCheck - Check the category is visible or not
+16:52:29.738 [main] INFO  testcases.BookshelvesCheck - Choosing Category

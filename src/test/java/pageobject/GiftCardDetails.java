@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import utilities.JsonRead;
+import utilities.JsonData;
 
 public class GiftCardDetails extends BasePage {
 
@@ -155,8 +155,8 @@ public class GiftCardDetails extends BasePage {
 	
 	// Perform customization based on JSON data
 	public void getcustomization() {
-		JsonRead.readJSONFile();
-		Amount.sendKeys(JsonRead.amount);
+		JsonData.readJSONFile();
+		Amount.sendKeys(JsonData.amount);
 		Month.click();
 		MonthSelect.click();
 		Date.click();
@@ -172,28 +172,29 @@ public class GiftCardDetails extends BasePage {
 	
 	// Fill in invalid details based on JSON data
 	public void fillInvaliddetails() {
-		RecipientName.sendKeys(JsonRead.recipientName);
-		RecipientEmail.sendKeys(JsonRead.recipientEmail);
-		RecipientMobile.sendKeys(JsonRead.recipientMobile);
-		CustomerName.sendKeys(JsonRead.customerName);
-		CustomerEmail.sendKeys(JsonRead.customerWrongEmail);
-		CustomerMobileNumber.sendKeys(JsonRead.customerMobile);
-		CustomerAddress.sendKeys(JsonRead.customerAddress);
-		PinCode.sendKeys(JsonRead.Pin);
-		Message.sendKeys(JsonRead.message);
+		RecipientName.sendKeys(JsonData.recipientName);
+		RecipientEmail.sendKeys(JsonData.recipientEmail);
+		RecipientMobile.sendKeys(JsonData.recipientMobile);
+		CustomerName.sendKeys(JsonData.customerName);
+		CustomerEmail.sendKeys(JsonData.customerWrongEmail);
+		CustomerMobileNumber.sendKeys(JsonData.customerMobile);
+		CustomerAddress.sendKeys(JsonData.customerAddress);
+		PinCode.sendKeys(JsonData.Pin);
+		Message.sendKeys(JsonData.message);
 		Confirm.click();
 	}
 	
 	// Get the validation message for invalid email
 	public void getInvalidMsg() {
 		String tooltipText = CustomerEmail.getAttribute("validationMessage");
+		System.out.println("****Error Message***");
 		System.out.println(tooltipText);
 	}
 	
 	// Fill in valid details for customer email and click confirm
 	public void fillValiddetails() {
 		CustomerEmail.clear();
-		CustomerEmail.sendKeys(JsonRead.customerEmail);
+		CustomerEmail.sendKeys(JsonData.customerEmail);
 		Confirm.click();
 	}
 	
@@ -213,7 +214,13 @@ public class GiftCardDetails extends BasePage {
 	
 	// Write the details to a JSON file
 	public void writeDetailsToJson() throws IOException {
-		JsonRead.writeToJson(amount, recipientName, recipientEmail, recipientMobile, customerName, customerEmail,
+		JsonData.writeToJson(amount, recipientName, recipientEmail, recipientMobile, customerName, customerEmail,
 				customerMobile, customerAddress, pin, message);
 	}
+	
+	public void compareData() throws IOException {
+		JsonData.CompareData(amount, recipientName, recipientEmail, recipientMobile, customerName, customerEmail,
+				customerMobile, customerAddress, pin, message);
+	}
+	
 }

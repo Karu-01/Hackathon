@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>30/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 05 09:14:51 IST 2024</td>
+<td>Started on:</td><td>Thu Mar 07 16:49:11 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>79 seconds (79004 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105630 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>regression smoke </td>
 </tr><tr>
@@ -67,6 +67,97 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.BookshelvesCheck.getBookDetails()'><b>getBookDetails</b><br>Test class: testcases.BookshelvesCheck</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd8c88d70d797e8cbba53dcaca688c3c, getElementText {id=64887F215EEA279C9BA537EF66A25E15_element_208}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56522/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fd8c88d70d797e8cbba53dcaca688c3c)] -&gt; xpath: //span[@itemprop=&apos;name&apos;]]
+Session ID: fd8c88d70d797e8cbba53dcaca688c3c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at pageobject.HomePage.getBookshelvesDetails(HomePage.java:149)
+	at testcases.BookshelvesCheck.getBookDetails(BookshelvesCheck.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace561772958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace561772958'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd8c88d70d797e8cbba53dcaca688c3c, getElementText {id=64887F215EEA279C9BA537EF66A25E15_element_208}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56522/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fd8c88d70d797e8cbba53dcaca688c3c)] -&gt; xpath: //span[@itemprop=&apos;name&apos;]]
+Session ID: fd8c88d70d797e8cbba53dcaca688c3c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at pageobject.HomePage.getBookshelvesDetails(HomePage.java:149)
+	at testcases.BookshelvesCheck.getBookDetails(BookshelvesCheck.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,87 +167,62 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.GiftCardCheck.writeDetailsToJson()'><b>writeDetailsToJson</b><br>Test class: testcases.GiftCardCheck</td>
+<td title='testcases.BookshelvesCheck.checkpopup()'><b>checkpopup</b><br>Test class: testcases.BookshelvesCheck</td>
+<td></td>
+<td>1</td>
+<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
+<tr>
+<td title='testcases.BookshelvesCheck.setPriceFilter()'><b>setPriceFilter</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
 <td>0</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
+<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
 <td title='testcases.GiftCardCheck.CheckBirthday()'><b>CheckBirthday</b><br>Test class: testcases.GiftCardCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.GiftCardCheck@5b247367</td></tr>
 <tr>
-<td title='testcases.GiftCardCheck.validateDetails()'><b>validateDetails</b><br>Test class: testcases.GiftCardCheck</td>
+<td title='testcases.BookshelvesCheck.clickBookShelves()'><b>clickBookShelves</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
-<td>0</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.validateAllDetails()'><b>validateAllDetails</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>0</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.BookshelvesCheck.checksort()'><b>checksort</b><br>Test class: testcases.BookshelvesCheck</td>
-<td></td>
-<td>0</td>
+<td>4</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.BookshelvesCheck.verifyBookShelves()'><b>verifyBookShelves</b><br>Test class: testcases.BookshelvesCheck</td>
+<td title='testcases.GiftCardCheck.SelectBirthday()'><b>SelectBirthday</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.invalidDetailsFilling()'><b>invalidDetailsFilling</b><br>Test class: testcases.GiftCardCheck</td>
 <td></td>
 <td>2</td>
-<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
 <tr>
 <td title='testcases.BookshelvesCheck.popupClose()'><b>popupClose</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.GiftCardCheck.GetGiftCards()'><b>GetGiftCards</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>8</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.captureAndDisplayErrorMessage()'><b>captureAndDisplayErrorMessage</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>0</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
 <td title='testcases.DropDownCheck.collectingDetails()'><b>collectingDetails</b><br>Test class: testcases.DropDownCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.DropDownCheck@1750fbeb</td></tr>
 <tr>
-<td title='testcases.BookshelvesCheck.getBookDetails()'><b>getBookDetails</b><br>Test class: testcases.BookshelvesCheck</td>
+<td title='testcases.BookshelvesCheck.checkCheckbox()'><b>checkCheckbox</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.BookshelvesCheck.checkpopup()'><b>checkpopup</b><br>Test class: testcases.BookshelvesCheck</td>
-<td></td>
-<td>1</td>
-<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
-<tr>
-<td title='testcases.BookshelvesCheck.writeExcel()'><b>writeExcel</b><br>Test class: testcases.BookshelvesCheck</td>
-<td></td>
-<td>2</td>
-<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.CheckGiftCards()'><b>CheckGiftCards</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>2</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.Customizing()'><b>Customizing</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>1</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.filldetailsvisible()'><b>filldetailsvisible</b><br>Test class: testcases.GiftCardCheck</td>
+<td title='testcases.GiftCardCheck.writeDetailsToJson()'><b>writeDetailsToJson</b><br>Test class: testcases.GiftCardCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.GiftCardCheck@5b247367</td></tr>
 <tr>
-<td title='testcases.BookshelvesCheck.checkpriceFilter()'><b>checkpriceFilter</b><br>Test class: testcases.BookshelvesCheck</td>
+<td title='testcases.DropDownCheck.CheckLiving()'><b>CheckLiving</b><br>Test class: testcases.DropDownCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.DropDownCheck@1750fbeb</td></tr>
+<tr>
+<td title='testcases.BookshelvesCheck.checksort()'><b>checksort</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
@@ -166,49 +232,19 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.BookshelvesCheck.chooseCategory()'><b>chooseCategory</b><br>Test class: testcases.BookshelvesCheck</td>
+<td title='testcases.GiftCardCheck.GetGiftCards()'><b>GetGiftCards</b><br>Test class: testcases.GiftCardCheck</td>
 <td></td>
-<td>0</td>
-<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
-<tr>
-<td title='testcases.DropDownCheck.SelectLiving()'><b>SelectLiving</b><br>Test class: testcases.DropDownCheck</td>
-<td></td>
-<td>0</td>
-<td>testcases.DropDownCheck@1750fbeb</td></tr>
-<tr>
-<td title='testcases.DropDownCheck.CheckLiving()'><b>CheckLiving</b><br>Test class: testcases.DropDownCheck</td>
-<td></td>
-<td>0</td>
-<td>testcases.DropDownCheck@1750fbeb</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.SelectBirthday()'><b>SelectBirthday</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>0</td>
+<td>33</td>
 <td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.BookshelvesCheck.setPriceFilter()'><b>setPriceFilter</b><br>Test class: testcases.BookshelvesCheck</td>
-<td></td>
-<td>1</td>
-<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
-<tr>
-<td title='testcases.GiftCardCheck.Checkcustomizationvisible()'><b>Checkcustomizationvisible</b><br>Test class: testcases.GiftCardCheck</td>
-<td></td>
-<td>0</td>
-<td>testcases.GiftCardCheck@5b247367</td></tr>
-<tr>
-<td title='testcases.BookshelvesCheck.clickBookShelves()'><b>clickBookShelves</b><br>Test class: testcases.BookshelvesCheck</td>
-<td></td>
-<td>3</td>
-<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
 <td title='testcases.BookshelvesCheck.outOfStockCheckbox()'><b>outOfStockCheckbox</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.GiftCardCheck.invalidDetailsFilling()'><b>invalidDetailsFilling</b><br>Test class: testcases.GiftCardCheck</td>
+<td title='testcases.GiftCardCheck.filldetailsvisible()'><b>filldetailsvisible</b><br>Test class: testcases.GiftCardCheck</td>
 <td></td>
-<td>2</td>
+<td>0</td>
 <td>testcases.GiftCardCheck@5b247367</td></tr>
 <tr>
 <td title='testcases.BookshelvesCheck.sortByPriceHighToLow()'><b>sortByPriceHighToLow</b><br>Test class: testcases.BookshelvesCheck</td>
@@ -216,12 +252,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.DropDownCheck.getLivingDetails()'><b>getLivingDetails</b><br>Test class: testcases.DropDownCheck</td>
+<td title='testcases.BookshelvesCheck.writeExcel()'><b>writeExcel</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
-<td>1</td>
-<td>testcases.DropDownCheck@1750fbeb</td></tr>
+<td>2</td>
+<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
 <tr>
-<td title='testcases.BookshelvesCheck.checkCheckbox()'><b>checkCheckbox</b><br>Test class: testcases.BookshelvesCheck</td>
+<td title='testcases.BookshelvesCheck.verifyBookShelves()'><b>verifyBookShelves</b><br>Test class: testcases.BookshelvesCheck</td>
 <td></td>
 <td>0</td>
 <td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
@@ -229,6 +265,56 @@ function toggleAllBoxes() {
 <td title='testcases.GiftCardCheck.compareDetails()'><b>compareDetails</b><br>Test class: testcases.GiftCardCheck</td>
 <td></td>
 <td>0</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.validateAllDetails()'><b>validateAllDetails</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.Checkcustomizationvisible()'><b>Checkcustomizationvisible</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.BookshelvesCheck.checkpriceFilter()'><b>checkpriceFilter</b><br>Test class: testcases.BookshelvesCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.captureAndDisplayErrorMessage()'><b>captureAndDisplayErrorMessage</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.DropDownCheck.SelectLiving()'><b>SelectLiving</b><br>Test class: testcases.DropDownCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.DropDownCheck@1750fbeb</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.validateDetails()'><b>validateDetails</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>1</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.Customizing()'><b>Customizing</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>1</td>
+<td>testcases.GiftCardCheck@5b247367</td></tr>
+<tr>
+<td title='testcases.BookshelvesCheck.chooseCategory()'><b>chooseCategory</b><br>Test class: testcases.BookshelvesCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.BookshelvesCheck@6fa51cd4</td></tr>
+<tr>
+<td title='testcases.DropDownCheck.getLivingDetails()'><b>getLivingDetails</b><br>Test class: testcases.DropDownCheck</td>
+<td></td>
+<td>0</td>
+<td>testcases.DropDownCheck@1750fbeb</td></tr>
+<tr>
+<td title='testcases.GiftCardCheck.CheckGiftCards()'><b>CheckGiftCards</b><br>Test class: testcases.GiftCardCheck</td>
+<td></td>
+<td>4</td>
 <td>testcases.GiftCardCheck@5b247367</td></tr>
 </table><p>
 </body>
